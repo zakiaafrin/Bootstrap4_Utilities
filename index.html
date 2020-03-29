@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,  shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap4.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <!-- <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet"
+            integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <title>Bootstrap4_Utilities</title>
+
+    <style>
+        .border {
+            display: inline-block;
+            width: 70px;
+            height: 70px;
+            margin: 6px;
+        }
+
+        .box {
+            display: inline-block;
+            width: 70px;
+            height: 70px;
+            margin: 6px;
+            background-color: #555;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- Utilities -->
+
+    <!-- Border -->
+    <div class="container pt-5">
+        <h3>Border</h3>
+        <span class="border bg-light"></span>
+        <span class="border bg-light border-0"></span>
+        <span class="border bg-light border-top-0"></span>
+        <span class="border bg-light border-right-0"></span>
+        <span class="border bg-light border-bottom-0"></span>
+        <span class="border bg-light border-left-0"></span>
+    </div>
+
+    <!-- Border Color -->
+    <div class="container pt-2">
+        <h3>Border Color</h3>
+        <span class="border border-primary"></span>
+        <span class="border border-secondary"></span>
+        <span class="border border-success"></span>
+        <span class="border border-danger"></span>
+        <span class="border border-warning"></span>
+        <span class="border border-info"></span>
+        <span class="border border-light"></span>
+        <span class="border border-dark"></span>
+        <span class="border border-white"></span>
+    </div>
+
+    <!-- Border Radius -->
+    <div class="container pt-2">
+        <h3>Border Radius</h3>
+        <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg" alt="Image" class="rounded"
+            style="width: 150px;">
+        <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg" alt="Image" class="rounded-top"
+            style="width: 150px;">
+        <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg" alt="Image" class="rounded-right"
+            style="width: 150px;">
+        <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg" alt="Image"
+            class="rounded-bottom" style="width: 150px;">
+        <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg" alt="Image" class="rounded-left"
+            style="width: 150px;">
+        <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg" alt="Image"
+            class="rounded-circle" style="width: 150px;">
+        <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg" alt="Image" class="rounded-pill"
+            style="width: 150px; margin-top: 5px;">
+        <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg" alt="Image" class="rounded-0"
+            style="width: 150px; margin-top: 5px;">
+    </div>
+
+    <div class="container pt-2">
+        <h3>Border Radius</h3>
+        <span class="box rounded-sm"></span>
+        <span class="box rounded"></span>
+        <span class="box rounded-lg"></span>
+        <span class="box rounded-top"></span>
+        <span class="box rounded-right"></span>
+        <span class="box rounded-bottom"></span>
+        <span class="box rounded-left"></span>
+        <span class="box rounded-circle"></span>
+        <span class="box rounded-0"></span>
+    </div>
+
+    <!-- Width -->
+    <div class="container pt-2">
+        <h3>Width</h3>
+        <div class="w-25 bg-info">Width 25%</div>
+        <div class="w-50 bg-warning">Width 50%</div>
+        <div class="w-75 bg-success">Width 75%</div>
+        <div class="w-100 bg-primary">Width 100%</div>
+        <div class="mw-100 bg-secondary">Max Width 100%</div>
+    </div>
+
+    <!-- Spacing -->
+    <div class="container pt-2">
+        <h3>Spacing</h3>
+        <div class="pt-4 bg-warning">I only have a top padding (1.5rem = 24px)</div>
+        <div class="p-5 bg-success">I have a padding on all sides (3rem = 48px)</div>
+        <div class="m-5 pb-5 bg-info">I have a margin on all sides (3rem = 48px) and a bottom padding (3rem = 48px)
+        </div>
+    </div>
+
+    <!-- Shadows -->
+    <div class="container pt-2">
+        <h3>Shadows</h3>
+        <div class="shadow-none p-4 mb-4 bg-light">No shadow</div>
+        <div class="shadow-sm p-4 mb-4 bg-white">Small shadow</div>
+        <div class="shadow p-4 mb-4 bg-white">Default shadow</div>
+        <div class="shadow-lg p-4 mb-4 bg-white">Large shadow</div>
+    </div>
+
+    <!-- Clearfix -->
+    <div class="container pt-2">
+        <h3>Shadows</h3>
+        <div class="bg-info clearfix">
+            <button type="button" class="btn btn-secondary float-left">Example Button floated left</button>
+            <button type="button" class="btn btn-secondary float-right">Example Button floated right</button>
+        </div>
+    </div>
+
+    <!-- Close icon -->
+    <div class="container py-5">
+        <h3>Close icon</h3>
+        <button type="button" class="close" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+
+    <!-- Text Color -->
+    <div class="container py-5">
+        <h3>Text Color</h3>
+        <p class="text-primary">.text-primary</p>
+        <p class="text-secondary">.text-secondary</p>
+        <p class="text-success">.text-success</p>
+        <p class="text-danger">.text-danger</p>
+        <p class="text-warning">.text-warning</p>
+        <p class="text-info">.text-info</p>
+        <p class="text-light bg-dark">.text-light</p>
+        <p class="text-dark">.text-dark</p>
+        <p class="text-body">.text-body</p>
+        <p class="text-muted">.text-muted</p>
+        <p class="text-white bg-dark">.text-white</p>
+        <p class="text-black-50">.text-black-50</p>
+        <p class="text-white-50 bg-dark">.text-white-50</p>
+    </div>
+
+    <!-- Link Color -->
+    <div class="container py-5">
+        <h3>Link Color</h3>
+        <p><a href="#" class="text-primary">Primary link</a></p>
+        <p><a href="#" class="text-secondary">Secondary link</a></p>
+        <p><a href="#" class="text-success">Success link</a></p>
+        <p><a href="#" class="text-danger">Danger link</a></p>
+        <p><a href="#" class="text-warning">Warning link</a></p>
+        <p><a href="#" class="text-info">Info link</a></p>
+        <p><a href="#" class="text-light bg-dark">Light link</a></p>
+        <p><a href="#" class="text-dark">Dark link</a></p>
+        <p><a href="#" class="text-muted">Muted link</a></p>
+        <p><a href="#" class="text-white bg-dark">White link</a></p>
+    </div>
+
+    <!-- Background Color -->
+    <div class="container py-5">
+        <h3>Background Color</h3>
+        <div class="p-3 mb-2 bg-primary text-white">.bg-primary</div>
+        <div class="p-3 mb-2 bg-secondary text-white">.bg-secondary</div>
+        <div class="p-3 mb-2 bg-success text-white">.bg-success</div>
+        <div class="p-3 mb-2 bg-danger text-white">.bg-danger</div>
+        <div class="p-3 mb-2 bg-warning text-dark">.bg-warning</div>
+        <div class="p-3 mb-2 bg-info text-white">.bg-info</div>
+        <div class="p-3 mb-2 bg-light text-dark">.bg-light</div>
+        <div class="p-3 mb-2 bg-dark text-white">.bg-dark</div>
+        <div class="p-3 mb-2 bg-white text-dark">.bg-white</div>
+        <div class="p-3 mb-2 bg-transparent text-dark">.bg-transparent</div>
+    </div>
+
+    <!-- Display Property -->
+    <div class="container">
+        <h3>Display Property (d-inline)</h3>
+        <div class="d-inline p-2 bg-primary text-white">d-inline</div>
+        <div class="d-inline p-2 bg-dark text-white">d-inline</div>
+    </div>
+    </div>
+
+    <!-- Display Property -->
+    <div class="container py-5">
+        <h3>Display Property (d-block)</h3>
+        <span class="d-block p-2 bg-primary text-white">d-block</span>
+        <span class="d-block p-2 bg-dark text-white">d-block</span>
+    </div>
+
+    <!-- Display Property -->
+    <div class="container py-2">
+        <h3>Display Property (d-lg , d-none)</h3>
+        <div class="d-lg-none">hide on lg and wider screens</div>
+        <div class="d-none d-lg-block">hide on screens smaller than lg</div>
+    </div>
+
+    <!-- Display Property -->
+    <div class="container py-5">
+        <h3>Display Property (d-print)</h3>
+        <div class="d-print-none">Screen Only (Hide on print only)</div>
+        <div class="d-none d-print-block">Print Only (Hide on screen only)</div>
+        <div class="d-none d-lg-block d-print-block">Hide up to large on screen, but always show on print</div>
+    </div>
+
+    <!-- Embeds -->
+    <div class="container">
+        <h3>Embeds</h3>
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0"
+                allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <!-- Float -->
+    <div class="container py-5">
+        <h3>Float</h3>
+        <div class="float-left">Float left on all viewport sizes</div><br>
+        <div class="float-right">Float right on all viewport sizes</div><br>
+        <div class="float-none">Don't float on all viewport sizes</div>
+    </div>
+
+    <!-- Overflow -->
+    <div class="container py-5">
+        <h3>Overflow</h3>
+        <div class="overflow-auto">This is an example of using .overflow-auto on an element with set width and height
+            dimensions. By design, this content will vertically scroll.</div>
+        <div class="overflow-hidden">This is an example of using .overflow-hidden on an element with set width and
+            height dimensions.</div>
+    </div>
+
+    <!-- Position -->
+    <div class="container">
+        <h3>Position</h3>
+        <div class="position-static">position-static</div>
+        <div class="position-relative">position-relative</div>
+        <div class="position-absolute">position-absolute</div>
+        <div class="position-fixed">position-fixed</div>
+        <div class="position-sticky">position-sticky</div>
+        <div class="fixed-top">fixed-top</div>
+        <div class="fixed-bottom">fixed-bottom</div>
+        <div class="sticky-top">sticky-top</div>
+    </div>
+
+    <!-- Text alignment -->
+    <div class="container py-5">
+        <h3>Text alignment</h3>
+        <p class="text-justify">Ambitioni dedisse scripsisse iudicaretur. Cras mattis iudicium purus sit amet fermentum.
+            Donec sed odio operae, eu vulputate felis rhoncus. Praeterea iter est quasdam res quas ex communi. At nos
+            hinc posthac, sitientis piros Afros. Petierunt uti sibi concilium totius Galliae in diem certam indicere.
+            Cras mattis iudicium purus sit amet fermentum.
+        </p>
+        <p class="text-left">Left aligned text on all viewport sizes.</p>
+        <p class="text-center">Center aligned text on all viewport sizes.</p>
+        <p class="text-right">Right aligned text on all viewport sizes.</p>
+
+        <p class="text-sm-left">Left aligned text on viewports sized SM (small) or wider.</p>
+        <p class="text-md-left">Left aligned text on viewports sized MD (medium) or wider.</p>
+        <p class="text-lg-left">Left aligned text on viewports sized LG (large) or wider.</p>
+        <p class="text-xl-left">Left aligned text on viewports sized XL (extra-large) or wider.</p>
+    </div>
+
+    <!-- Text wrapping and overflow -->
+    <div class="container py-5">
+        <h3>Text wrapping and overflow</h3>
+        <div class="badge badge-primary text-wrap" style="width: 6rem;">
+            This text should wrap.
+        </div>
+        <div class="text-nowrap bg-highlight" style="width: 8rem;">
+            This text should overflow the parent.
+        </div>
+    </div>
+
+    <!-- Text Turncate -->
+    <div class="container py-5">
+        <h3>Text Turncate</h3>
+        <!-- Block level -->
+        <div class="row">
+            <div class="col-2 text-truncate">
+                Praeterea iter est quasdam res quas ex communi.
+            </div>
+        </div>
+
+        <!-- Inline level -->
+        <span class="d-inline-block text-truncate" style="max-width: 150px;">
+            Praeterea iter est quasdam res quas ex communi.
+        </span>
+    </div>
+
+    <!-- Word break -->
+    <div class="container py-5">
+        <h3>Word break</h3>
+        <p class="text-break">
+            mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm</p>
+    </div>
+
+    <!-- Text transform -->
+    <div class="container py-5">
+        <h3>Text transform</h3>
+        <p class="text-lowercase">Lowercased text.</p>
+        <p class="text-uppercase">Uppercased text.</p>
+        <p class="text-capitalize">CapiTaliZed text.</p>
+    </div>
+
+    <!-- Font weight and italics -->
+    <div class="container py-5">
+        <h3>Font weight and italics</h3>
+        <p class="font-weight-bold">Bold text.</p>
+        <p class="font-weight-bolder">Bolder weight text (relative to the parent element).</p>
+        <p class="font-weight-normal">Normal weight text.</p>
+        <p class="font-weight-light">Light weight text.</p>
+        <p class="font-weight-lighter">Lighter weight text (relative to the parent element).</p>
+        <p class="font-italic">Italic text.</p>
+    </div>
+
+    <!-- Monospace -->
+    <div class="container py-5">
+        <h3>Monospace</h3>
+        <p class="text-monospace">This is in monospace</p>
+    </div>
+
+    <!-- Reset color -->
+    <div class="container py-5">
+        <h3>Reset color</h3>
+        <p class="text-muted">
+            Muted text with a <a href="#" class="text-reset">reset link</a>.
+        </p>
+    </div>
+
+    <!-- Text decoration -->
+    <div class="container py-5">
+        <h3>Text decoration</h3>
+        <a href="#" class="text-decoration-none">Non-underlined link</a>
+    </div>
+
+    <!-- Reset color -->
+    <div class="container py-5">
+        <h3>Reset color</h3>
+        <p class="text-muted">
+            Muted text with a <a href="#" class="text-reset">reset link</a>.
+        </p>
+    </div>
+
+    <!-- Vertical alignment -->
+    <div class="container py-5">
+        <h3>Vertical alignment</h3>
+        <span class="align-baseline">baseline</span>
+        <span class="align-top">top</span>
+        <span class="align-middle">middle</span>
+        <span class="align-bottom">bottom</span>
+        <span class="align-text-top">text-top</span>
+        <span class="align-text-bottom">text-bottom</span>
+    </div>
+
+    <!-- Vertical alignment( Table )-->
+    <div class="container py-5">
+        <h3>Vertical alignment( Table )</h3>
+        <table style="height: 100px;">
+            <tbody>
+                <tr>
+                    <td class="align-baseline">baseline</td>
+                    <td class="align-top">top</td>
+                    <td class="align-middle">middle</td>
+                    <td class="align-bottom">bottom</td>
+                    <td class="align-text-top">text-top</td>
+                    <td class="align-text-bottom">text-bottom</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Height -->
+    <div class="container py-5">
+        <h3>Height</h3>
+        <div style="height:200px;background-color:#ddd">
+            <div class="h-25 bg-info">Height 25%</div>
+            <div class="h-50 bg-warning">Height 50%</div>
+            <div class="h-75 bg-success">Height 75%</div>
+            <div class="h-100 bg-primary">Height 100%</div>
+            <div class="mh-100 bg-secondary" style="height:500px">Max Height 100%</div>
+        </div>
+    </div>
+
+    <!-- Utilities Ends -->
+
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.2.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap4.min.js"></script>
+</body>
+
+</html>
